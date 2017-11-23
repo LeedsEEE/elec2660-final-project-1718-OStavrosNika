@@ -16,6 +16,11 @@
 		C04CE6C51FC6DBD60013A2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04CE6C31FC6DBD60013A2A6 /* LaunchScreen.storyboard */; };
 		C04CE6D01FC6DBD60013A2A6 /* Stength_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6CF1FC6DBD60013A2A6 /* Stength_AppTests.m */; };
 		C04CE6DB1FC6DBD60013A2A6 /* Stength_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6DA1FC6DBD60013A2A6 /* Stength_AppUITests.m */; };
+		C04CE6EA1FC6EF5F0013A2A6 /* BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6E91FC6EF5F0013A2A6 /* BMI.m */; };
+		C04CE6ED1FC6EF780013A2A6 /* BMR.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6EC1FC6EF780013A2A6 /* BMR.m */; };
+		C04CE6F01FC6EFC00013A2A6 /* Wilks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6EF1FC6EFC00013A2A6 /* Wilks.m */; };
+		C04CE6F31FC6EFE20013A2A6 /* Symmetry.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */; };
+		C04CE6FF1FC6F0A70013A2A6 /* weight.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6FE1FC6F0A70013A2A6 /* weight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		C04CE6D61FC6DBD60013A2A6 /* Stength AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stength AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04CE6DA1FC6DBD60013A2A6 /* Stength_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stength_AppUITests.m; sourceTree = "<group>"; };
 		C04CE6DC1FC6DBD60013A2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04CE6E81FC6EF5F0013A2A6 /* BMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMI.h; sourceTree = "<group>"; };
+		C04CE6E91FC6EF5F0013A2A6 /* BMI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMI.m; sourceTree = "<group>"; };
+		C04CE6EB1FC6EF780013A2A6 /* BMR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMR.h; sourceTree = "<group>"; };
+		C04CE6EC1FC6EF780013A2A6 /* BMR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMR.m; sourceTree = "<group>"; };
+		C04CE6EE1FC6EFC00013A2A6 /* Wilks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wilks.h; sourceTree = "<group>"; };
+		C04CE6EF1FC6EFC00013A2A6 /* Wilks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wilks.m; sourceTree = "<group>"; };
+		C04CE6F11FC6EFE20013A2A6 /* Symmetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symmetry.h; sourceTree = "<group>"; };
+		C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symmetry.m; sourceTree = "<group>"; };
+		C04CE6FD1FC6F0A70013A2A6 /* weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weight.h; sourceTree = "<group>"; };
+		C04CE6FE1FC6F0A70013A2A6 /* weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,14 @@
 				C04CE6B51FC6DBD60013A2A6 /* AppDelegate.h */,
 				C04CE6B61FC6DBD60013A2A6 /* AppDelegate.m */,
 				C04CE6B81FC6DBD60013A2A6 /* ViewController.h */,
+				C04CE6E81FC6EF5F0013A2A6 /* BMI.h */,
+				C04CE6E91FC6EF5F0013A2A6 /* BMI.m */,
+				C04CE6EB1FC6EF780013A2A6 /* BMR.h */,
+				C04CE6EC1FC6EF780013A2A6 /* BMR.m */,
+				C04CE6EE1FC6EFC00013A2A6 /* Wilks.h */,
+				C04CE6EF1FC6EFC00013A2A6 /* Wilks.m */,
+				C04CE6F11FC6EFE20013A2A6 /* Symmetry.h */,
+				C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */,
 				C04CE6B91FC6DBD60013A2A6 /* ViewController.m */,
 				C04CE6BB1FC6DBD60013A2A6 /* Main.storyboard */,
 				C04CE6C11FC6DBD60013A2A6 /* Assets.xcassets */,
@@ -113,6 +136,8 @@
 				C04CE6C61FC6DBD60013A2A6 /* Info.plist */,
 				C04CE6BE1FC6DBD60013A2A6 /* Stength_App.xcdatamodeld */,
 				C04CE6B21FC6DBD60013A2A6 /* Supporting Files */,
+				C04CE6FD1FC6F0A70013A2A6 /* weight.h */,
+				C04CE6FE1FC6F0A70013A2A6 /* weight.m */,
 			);
 			path = "Stength App";
 			sourceTree = "<group>";
@@ -276,10 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04CE6EA1FC6EF5F0013A2A6 /* BMI.m in Sources */,
+				C04CE6FF1FC6F0A70013A2A6 /* weight.m in Sources */,
 				C04CE6BA1FC6DBD60013A2A6 /* ViewController.m in Sources */,
 				C04CE6C01FC6DBD60013A2A6 /* Stength_App.xcdatamodeld in Sources */,
+				C04CE6F01FC6EFC00013A2A6 /* Wilks.m in Sources */,
+				C04CE6ED1FC6EF780013A2A6 /* BMR.m in Sources */,
 				C04CE6B71FC6DBD60013A2A6 /* AppDelegate.m in Sources */,
 				C04CE6B41FC6DBD60013A2A6 /* main.m in Sources */,
+				C04CE6F31FC6EFE20013A2A6 /* Symmetry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +541,7 @@
 				C04CE6E11FC6DBD60013A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C04CE6E21FC6DBD60013A2A6 /* Build configuration list for PBXNativeTarget "Stength AppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +550,7 @@
 				C04CE6E41FC6DBD60013A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C04CE6E51FC6DBD60013A2A6 /* Build configuration list for PBXNativeTarget "Stength AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +559,7 @@
 				C04CE6E71FC6DBD60013A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
