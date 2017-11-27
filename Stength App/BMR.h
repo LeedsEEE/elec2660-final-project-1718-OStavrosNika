@@ -10,4 +10,9 @@
 
 @interface BMR : NSObject
 
+@property NSInteger weight;
+@property NSInteger height;
+@property NSInteger age;
+@property (nonatomic, strong) NSString *gender;
+
 @end

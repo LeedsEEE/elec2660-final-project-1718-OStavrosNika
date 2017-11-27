@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03696F01FCC7DBD003D9257 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03696EF1FCC7DBD003D9257 /* TableViewController.m */; };
 		C04CE6B41FC6DBD60013A2A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6B31FC6DBD60013A2A6 /* main.m */; };
 		C04CE6B71FC6DBD60013A2A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6B61FC6DBD60013A2A6 /* AppDelegate.m */; };
 		C04CE6BA1FC6DBD60013A2A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6B91FC6DBD60013A2A6 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03696EE1FCC7DBD003D9257 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C03696EF1FCC7DBD003D9257 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C04CE6AF1FC6DBD60013A2A6 /* Stength App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stength App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04CE6B31FC6DBD60013A2A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C04CE6B51FC6DBD60013A2A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */,
 				C04CE6B91FC6DBD60013A2A6 /* ViewController.m */,
 				C04CE6BB1FC6DBD60013A2A6 /* Main.storyboard */,
+				C03696EE1FCC7DBD003D9257 /* TableViewController.h */,
+				C03696EF1FCC7DBD003D9257 /* TableViewController.m */,
 				C04CE6C11FC6DBD60013A2A6 /* Assets.xcassets */,
 				C04CE6C31FC6DBD60013A2A6 /* LaunchScreen.storyboard */,
 				C04CE6C61FC6DBD60013A2A6 /* Info.plist */,
@@ -304,6 +309,7 @@
 				C04CE6EA1FC6EF5F0013A2A6 /* BMI.m in Sources */,
 				C04CE6FF1FC6F0A70013A2A6 /* weight.m in Sources */,
 				C04CE6BA1FC6DBD60013A2A6 /* ViewController.m in Sources */,
+				C03696F01FCC7DBD003D9257 /* TableViewController.m in Sources */,
 				C04CE6C01FC6DBD60013A2A6 /* Stength_App.xcdatamodeld in Sources */,
 				C04CE6F01FC6EFC00013A2A6 /* Wilks.m in Sources */,
 				C04CE6ED1FC6EF780013A2A6 /* BMR.m in Sources */,

@@ -10,4 +10,8 @@
 
 @interface Wilks : NSObject
 
+@property NSInteger weight;
+@property NSInteger lifttotal;
+@property (nonatomic, strong) NSString *gender;
+
 @end

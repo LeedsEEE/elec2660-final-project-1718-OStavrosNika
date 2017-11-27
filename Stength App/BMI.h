@@ -10,4 +10,7 @@
 
 @interface BMI : NSObject
 
+@property NSInteger weight;
+@property NSInteger height;
+
 @end
