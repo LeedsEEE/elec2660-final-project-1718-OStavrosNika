@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface BMI : NSObject
-
-@property NSInteger weight;
-@property NSInteger height;
+@interface BMI : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *height;
+@property (weak, nonatomic) IBOutlet UITextField *weight;
+@property (weak, nonatomic) IBOutlet UILabel *result;
+- (IBAction)CalculateAction:(id)sender;
+-(float)calcBMI:(float)weight height:(float)height;
 
 @end

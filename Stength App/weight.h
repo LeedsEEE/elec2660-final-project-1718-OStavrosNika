@@ -10,4 +10,7 @@
 
 @interface weight : NSObject
 
+@property NSInteger weight;
+@property NSInteger date;
+
 @end
