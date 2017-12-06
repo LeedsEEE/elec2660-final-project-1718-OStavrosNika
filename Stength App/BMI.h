@@ -10,10 +10,12 @@
 #import <UIKit/UIKit.h>
 
 @interface BMI : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *height;
-@property (weak, nonatomic) IBOutlet UITextField *weight;
-@property (weak, nonatomic) IBOutlet UILabel *result;
+@property (weak, nonatomic) IBOutlet UITextField *heightTextField;
+@property (weak, nonatomic) IBOutlet UITextField *weightTextField;
+@property (weak, nonatomic) IBOutlet UITextField *resultTextField;
+
+
 - (IBAction)CalculateAction:(id)sender;
--(float)calcBMI:(float)weight height:(float)height;
+
 
 @end

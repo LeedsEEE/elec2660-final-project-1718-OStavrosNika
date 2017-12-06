@@ -10,20 +10,33 @@
 
 @implementation BMI
 
--(float)calcBMI:(float)weight hiight:(float)height
-{
-    float result = weight / (height * height);
-    return result;
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+
 - (IBAction)CalculateAction:(id)sender {
-    if (_height == 0) return;
-    float h = [_height.text floatValue] / 100;
-    float w = [_weight.text floatValue];
     
-    float bmi = [self calcBMI:w hiight:h];
-    _result.text = [NSString stringWithFormat:@"4.2f", bmi ];
+    NSLog(@"Calculate Pressed");
     
-    [self.view endEditing:YES];
+    float weight = [[self.weightTextField text] floatValue];
+    float height = [[self.heightTextField text] floatValue];
+    
+    NSLog(@"weight: %f height: %f", weight, height);
+    
+    float result = (height * height) / weight;
+    NSLog(@"result: %f", result);
+
+    NSString *resultText = [NSString stringWithFormat:@"%f", result];
+    self.resultTextField.text = resultText;
+    
 }
 @end

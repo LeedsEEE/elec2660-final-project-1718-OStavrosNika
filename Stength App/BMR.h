@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface BMR : NSObject
+@interface BMR : UIViewController
 
 @property NSInteger weight;
 @property NSInteger height;

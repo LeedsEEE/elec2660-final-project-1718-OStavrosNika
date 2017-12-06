@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h> 
 
-@interface Wilks : NSObject
-
+@interface Wilks : UIViewController
 @property NSInteger weight;
 @property NSInteger lifttotal;
 @property (nonatomic, strong) NSString *gender;

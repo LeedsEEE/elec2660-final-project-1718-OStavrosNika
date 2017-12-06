@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface weight : NSObject
+@interface weight : UIViewController
 
 @property NSInteger weight;
 @property NSInteger date;

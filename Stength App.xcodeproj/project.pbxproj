@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00F86481FD860F000D7231F /* Nutrition.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F86471FD860F000D7231F /* Nutrition.m */; };
 		C03696F01FCC7DBD003D9257 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03696EF1FCC7DBD003D9257 /* TableViewController.m */; };
 		C04CE6B41FC6DBD60013A2A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6B31FC6DBD60013A2A6 /* main.m */; };
 		C04CE6B71FC6DBD60013A2A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6B61FC6DBD60013A2A6 /* AppDelegate.m */; };
@@ -42,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C00F86461FD860F000D7231F /* Nutrition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nutrition.h; sourceTree = "<group>"; };
+		C00F86471FD860F000D7231F /* Nutrition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nutrition.m; sourceTree = "<group>"; };
+		C00F864A1FD881C900D7231F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/MenuViewController.h; sourceTree = "<group>"; };
+		C00F864C1FD881C900D7231F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/MenuViewController.m; sourceTree = "<group>"; };
 		C03696EE1FCC7DBD003D9257 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C03696EF1FCC7DBD003D9257 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C04CE6AF1FC6DBD60013A2A6 /* Stength App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stength App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +139,8 @@
 				C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */,
 				C04CE6B91FC6DBD60013A2A6 /* ViewController.m */,
 				C04CE6BB1FC6DBD60013A2A6 /* Main.storyboard */,
+				C00F86491FD881C900D7231F /* MenuViewController.h */,
+				C00F864B1FD881C900D7231F /* MenuViewController.m */,
 				C03696EE1FCC7DBD003D9257 /* TableViewController.h */,
 				C03696EF1FCC7DBD003D9257 /* TableViewController.m */,
 				C04CE6C11FC6DBD60013A2A6 /* Assets.xcassets */,
@@ -143,6 +150,8 @@
 				C04CE6B21FC6DBD60013A2A6 /* Supporting Files */,
 				C04CE6FD1FC6F0A70013A2A6 /* weight.h */,
 				C04CE6FE1FC6F0A70013A2A6 /* weight.m */,
+				C00F86461FD860F000D7231F /* Nutrition.h */,
+				C00F86471FD860F000D7231F /* Nutrition.m */,
 			);
 			path = "Stength App";
 			sourceTree = "<group>";
@@ -314,6 +323,7 @@
 				C04CE6F01FC6EFC00013A2A6 /* Wilks.m in Sources */,
 				C04CE6ED1FC6EF780013A2A6 /* BMR.m in Sources */,
 				C04CE6B71FC6DBD60013A2A6 /* AppDelegate.m in Sources */,
+				C00F86481FD860F000D7231F /* Nutrition.m in Sources */,
 				C04CE6B41FC6DBD60013A2A6 /* main.m in Sources */,
 				C04CE6F31FC6EFE20013A2A6 /* Symmetry.m in Sources */,
 			);
@@ -351,6 +361,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C00F86491FD881C900D7231F /* MenuViewController.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00F864A1FD881C900D7231F /* Base */,
+			);
+			name = MenuViewController.h;
+			sourceTree = "<group>";
+		};
+		C00F864B1FD881C900D7231F /* MenuViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00F864C1FD881C900D7231F /* Base */,
+			);
+			name = MenuViewController.m;
+			sourceTree = "<group>";
+		};
 		C04CE6BB1FC6DBD60013A2A6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

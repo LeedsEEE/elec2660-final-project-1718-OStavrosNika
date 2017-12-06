@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface Symmetry : NSObject
+@interface Symmetry : UIViewController
 
 @property NSInteger weight;
 @property NSInteger liftsquat;
