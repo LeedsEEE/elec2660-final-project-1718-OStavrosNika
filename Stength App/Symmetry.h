@@ -11,10 +11,6 @@
 
 @interface Symmetry : UIViewController
 
-@property NSInteger weight;
-@property NSInteger liftsquat;
-@property NSInteger liftbench;
-@property NSInteger liftdead;
-@property (nonatomic, strong) NSString *gender;
+
 
 @end

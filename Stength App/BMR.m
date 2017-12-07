@@ -10,7 +10,6 @@
 
 @implementation BMR
 
-- (IBAction)calculateAction:(id)sender {
     
 #pragma mark Button Pressed
     
@@ -26,20 +25,27 @@
         
         NSLog(@"weight: %f height: %f age: %f", weight, height, age); //prints weight and height and age
         
-        if gender == m;
+        if ([_genderTextField.text isEqualToString:@"m"]) 
         {
         // equation for BMR
-        float result = 66.47 + (13.7*weight)+(5*height)-(6.8*age)
+            float result = 66.47 + (13.7*weight)+(5*height)-(6.8*age);
+            
+            NSLog(@"result: %f", result);
+            
+            //outputing the result
+            NSString *resultText = [NSString stringWithFormat:@"%f", result];
+            self.resultTextField.text = resultText;
         }
+        
         else {
-            float result = 655.1 + (9.6*weight) + (1.8*height) - (4.7*age)
-        }
+            float result = 655.1 + (9.6*weight) + (1.8*height) - (4.7*age);
+        
         NSLog(@"result: %f", result);
         
         //outputing the result
         NSString *resultText = [NSString stringWithFormat:@"%f", result];
         self.resultTextField.text = resultText;
-    
+        }
     
 }
 @end

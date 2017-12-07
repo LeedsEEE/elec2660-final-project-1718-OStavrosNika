@@ -11,7 +11,16 @@
 
 @interface weight : UIViewController
 
-@property NSInteger weight;
-@property NSInteger date;
+@property (weak, nonatomic) IBOutlet UITextField *day1TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day2TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day3TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day4TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day5TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day6TextField;
+@property (weak, nonatomic) IBOutlet UITextField *day7TextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *meanTextField;
+
+- (IBAction)calculateAction:(id)sender;
 
 @end
