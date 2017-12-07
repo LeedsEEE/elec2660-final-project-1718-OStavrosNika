@@ -10,4 +10,6 @@
 
 @implementation BMR
 
+- (IBAction)calculateAction:(id)sender {
+}
 @end

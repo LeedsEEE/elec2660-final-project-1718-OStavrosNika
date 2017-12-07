@@ -10,4 +10,6 @@
 
 @implementation Wilks
 
+- (IBAction)calculateAction:(id)sender {
+}
 @end

@@ -10,8 +10,14 @@
 #import <UIKit/UIKit.h> 
 
 @interface Wilks : UIViewController
-@property NSInteger weight;
-@property NSInteger lifttotal;
-@property (nonatomic, strong) NSString *gender;
+
+@property (weak, nonatomic) IBOutlet UITextField *weightTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *lifttotalTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *wilksTextField;
+
+- (IBAction)calculateAction:(id)sender;
+
 
 @end

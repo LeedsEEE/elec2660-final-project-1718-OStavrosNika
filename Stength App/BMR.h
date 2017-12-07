@@ -11,9 +11,16 @@
 
 @interface BMR : UIViewController
 
-@property NSInteger weight;
-@property NSInteger height;
-@property NSInteger age;
-@property (nonatomic, strong) NSString *gender;
+@property (weak, nonatomic) IBOutlet UITextField *weightTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *heightTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *ageTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *genderTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *resultTextField;
+
+- (IBAction)calculateAction:(id)sender;
 
 @end
