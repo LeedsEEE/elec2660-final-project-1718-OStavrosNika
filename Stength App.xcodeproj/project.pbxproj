@@ -21,6 +21,7 @@
 		C04CE6F31FC6EFE20013A2A6 /* Symmetry.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6F21FC6EFE20013A2A6 /* Symmetry.m */; };
 		C04CE6FF1FC6F0A70013A2A6 /* weight.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CE6FE1FC6F0A70013A2A6 /* weight.m */; };
 		C0780F1E1FD9498D00FD78C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0780F1D1FD9498D00FD78C9 /* main.m */; };
+		C07D76A71FD9E0BC00B023C5 /* Barbell.png in Resources */ = {isa = PBXBuildFile; fileRef = C07D76A61FD9E0BC00B023C5 /* Barbell.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C04CE6FD1FC6F0A70013A2A6 /* weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weight.h; sourceTree = "<group>"; };
 		C04CE6FE1FC6F0A70013A2A6 /* weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weight.m; sourceTree = "<group>"; };
 		C0780F1D1FD9498D00FD78C9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C07D76A61FD9E0BC00B023C5 /* Barbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbell.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				C04CE6BB1FC6DBD60013A2A6 /* Main.storyboard */,
 				C00F86491FD881C900D7231F /* MenuViewController.h */,
 				C00F864B1FD881C900D7231F /* MenuViewController.m */,
+				C07D76A61FD9E0BC00B023C5 /* Barbell.png */,
 				C04CE6C11FC6DBD60013A2A6 /* Assets.xcassets */,
 				C04CE6C31FC6DBD60013A2A6 /* LaunchScreen.storyboard */,
 				C04CE6C61FC6DBD60013A2A6 /* Info.plist */,
@@ -280,6 +283,7 @@
 			files = (
 				C04CE6C51FC6DBD60013A2A6 /* LaunchScreen.storyboard in Resources */,
 				C04CE6C21FC6DBD60013A2A6 /* Assets.xcassets in Resources */,
+				C07D76A71FD9E0BC00B023C5 /* Barbell.png in Resources */,
 				C04CE6BD1FC6DBD60013A2A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

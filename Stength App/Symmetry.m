@@ -10,4 +10,7 @@
 
 @implementation Symmetry
 
+- (IBAction)calculateAction:(id)sender {
+    
+}
 @end
