@@ -351,7 +351,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="calculate"/>
                                 <connections>
-                                    <action selector="CalculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="Ysz-RW-V4B"/>
+                                    <action selector="calculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="8gH-zk-g6v"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbU-d4-pAG">
@@ -411,9 +411,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="height" destination="BVj-GH-NLP" id="WSZ-xs-vBC"/>
+                        <outlet property="heightTextField" destination="BVj-GH-NLP" id="bgQ-cD-hFd"/>
                         <outlet property="resultTextField" destination="N1a-8G-XyQ" id="WCR-85-J4T"/>
-                        <outlet property="weight" destination="M0p-QS-iHY" id="3Mg-4b-iim"/>
+                        <outlet property="weightTextField" destination="M0p-QS-iHY" id="PV1-DK-HE5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gwx-Hf-aTA" userLabel="First Responder" sceneMemberID="firstResponder"/>

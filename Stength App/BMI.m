@@ -23,14 +23,14 @@
 
 #pragma mark Button Pressed
 
-- (IBAction)CalculateAction:(id)sender {
+- (IBAction)calculateAction:(id)sender {
     
     NSLog(@"Calculate Pressed"); // gives time when calculate was pressed
     
     float weight = [[self.weightTextField text] floatValue];
     float height = [[self.heightTextField text] floatValue];
     
-    NSLog(@"weight: %f height: %f", weight, height);
+    NSLog(@"weight: %f height: %f", weight, height); //prints weight and height
     
     // equation for BMI
     float result = (height * height) / weight;

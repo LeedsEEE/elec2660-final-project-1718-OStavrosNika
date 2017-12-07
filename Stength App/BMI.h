@@ -10,7 +10,7 @@
 
 @interface BMI : UIViewController
 
-// text fields for the inputs and outputs
+// text fields for the inputs and outputs in camel case
 
 @property (weak, nonatomic) IBOutlet UITextField *heightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *weightTextField;
@@ -18,7 +18,7 @@
 
 // button for initiating the calculation
 
-- (IBAction)CalculateAction:(id)sender;
+- (IBAction)calculateAction:(id)sender;
 
 
 @end
