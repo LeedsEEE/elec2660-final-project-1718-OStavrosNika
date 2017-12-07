@@ -13,7 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *weightTextField;
 
-@property (weak, nonatomic) IBOutlet UITextField *lifttotalTextField;
+@property (weak, nonatomic) IBOutlet UITextField *lifttotalTextField; // sum of squat dead and bench
 
 @property (weak, nonatomic) IBOutlet UITextField *wilksTextField;
 

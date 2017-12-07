@@ -21,7 +21,6 @@
         float weight = [[self.weightTextField text] floatValue];
         float height = [[self.heightTextField text] floatValue];
         float age = [[self.ageTextField text] floatValue];
-        float gender = [[self.genderTextField text] floatValue];
         
         NSLog(@"weight: %f height: %f age: %f", weight, height, age); //prints weight and height and age
         

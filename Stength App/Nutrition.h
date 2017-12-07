@@ -10,4 +10,6 @@
 
 @interface Nutrition : UIViewController
 
+// its just some facts about nutrition, it needs to be in the app for it to be usefull though
+
 @end

@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stength App/BMR.m"
-            timestampString = "534359478.00783"
+            timestampString = "534374901.288883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "-calculateAction:"
             landmarkType = "7">
          </BreakpointContent>

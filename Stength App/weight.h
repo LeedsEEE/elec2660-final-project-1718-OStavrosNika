@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @interface weight : UIViewController
+ // text fields for each day, this part is mean to deal with how your weight throughout the week will change and a mean will be more usefull
 
 @property (weak, nonatomic) IBOutlet UITextField *day1TextField;
 @property (weak, nonatomic) IBOutlet UITextField *day2TextField;
@@ -21,6 +22,6 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *meanTextField;
 
-- (IBAction)calculateAction:(id)sender;
+- (IBAction)calculateAction:(id)sender; // calculate button pressed
 
 @end
