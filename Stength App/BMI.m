@@ -21,20 +21,22 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+#pragma mark Button Pressed
 
 - (IBAction)CalculateAction:(id)sender {
     
-    NSLog(@"Calculate Pressed");
+    NSLog(@"Calculate Pressed"); // gives time when calculate was pressed
     
     float weight = [[self.weightTextField text] floatValue];
     float height = [[self.heightTextField text] floatValue];
     
     NSLog(@"weight: %f height: %f", weight, height);
     
+    // equation for BMI
     float result = (height * height) / weight;
     NSLog(@"result: %f", result);
 
+    //outputing the result
     NSString *resultText = [NSString stringWithFormat:@"%f", result];
     self.resultTextField.text = resultText;
     

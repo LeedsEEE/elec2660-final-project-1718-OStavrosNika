@@ -6,7 +6,7 @@
 //  Copyright © 2017 William Mooney [el16wtm]. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+
 #import <UIKit/UIKit.h>
 
 @interface weight : UIViewController

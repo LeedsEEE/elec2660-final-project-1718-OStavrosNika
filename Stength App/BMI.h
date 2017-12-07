@@ -6,14 +6,17 @@
 //  Copyright © 2017 William Mooney [el16wtm]. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 @interface BMI : UIViewController
+
+// text fields for the inputs and outputs
+
 @property (weak, nonatomic) IBOutlet UITextField *heightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *weightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *resultTextField;
 
+// button for initiating the calculation
 
 - (IBAction)CalculateAction:(id)sender;
 

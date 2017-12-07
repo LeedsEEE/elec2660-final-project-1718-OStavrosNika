@@ -95,6 +95,9 @@
                                 <frame key="frameInset" minX="269" minY="344" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go&gt;"/>
+                                <connections>
+                                    <segue destination="Bsz-Mk-oMA" kind="show" id="R4z-YL-TxM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UF2-Yz-oHp">
                                 <frame key="frameInset" minX="269" minY="373" width="30" height="30"/>
@@ -108,16 +111,25 @@
                                 <frame key="frameInset" minX="269" minY="401" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go&gt;"/>
+                                <connections>
+                                    <segue destination="1A3-Pf-xeE" kind="show" id="oo4-dr-dVS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8B-nP-UFq">
                                 <frame key="frameInset" minX="269" minY="430" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go&gt;"/>
+                                <connections>
+                                    <segue destination="bR5-wl-avd" kind="show" id="R6w-Se-Za1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-AM-2QV">
                                 <frame key="frameInset" minX="269" minY="459" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go&gt;"/>
+                                <connections>
+                                    <segue destination="elJ-4K-16H" kind="show" id="lqT-bV-UrV"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8x-dz-PlY">
                                 <frame key="frameInset" minX="68" minY="72" width="240" height="128"/>
@@ -176,9 +188,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="calculate"/>
                                 <connections>
-                                    <action selector="CalculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="OqS-Dc-27O"/>
                                     <action selector="calculateAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PZu-tG-Mgy"/>
-                                    <action selector="calculateButtonPressed:" destination="P48-50-sow" eventType="touchUpInside" id="9qG-HZ-ZyY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCG-O3-oUR">
@@ -263,10 +273,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="calculate"/>
-                                <connections>
-                                    <action selector="CalculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="mJx-Zm-CLd"/>
-                                    <action selector="calculateButtonPressed:" destination="P48-50-sow" eventType="touchUpInside" id="zbs-m5-So8"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2P-BB-rnX">
                                 <frame key="frameInset" minX="45" minY="212" width="85" height="21"/>
@@ -346,7 +352,6 @@
                                 <state key="normal" title="calculate"/>
                                 <connections>
                                     <action selector="CalculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="Ysz-RW-V4B"/>
-                                    <action selector="calculateButtonPressed:" destination="P48-50-sow" eventType="touchUpInside" id="b3W-H4-pdu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbU-d4-pAG">
@@ -477,9 +482,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="calculate"/>
                                 <connections>
-                                    <action selector="CalculateAction:" destination="P48-50-sow" eventType="touchUpInside" id="tgv-dB-rmh"/>
                                     <action selector="calculateAction:" destination="Bsz-Mk-oMA" eventType="touchUpInside" id="nBV-gN-lig"/>
-                                    <action selector="calculateButtonPressed:" destination="P48-50-sow" eventType="touchUpInside" id="UuP-45-CgY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AqB-w4-KEU">
